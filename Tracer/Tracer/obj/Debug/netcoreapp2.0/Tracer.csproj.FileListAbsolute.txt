@@ -1,0 +1,8 @@
+D:\СПП\Tracer\Tracer\bin\Debug\netcoreapp2.0\Tracer.deps.json
+D:\СПП\Tracer\Tracer\bin\Debug\netcoreapp2.0\Tracer.runtimeconfig.json
+D:\СПП\Tracer\Tracer\bin\Debug\netcoreapp2.0\Tracer.runtimeconfig.dev.json
+D:\СПП\Tracer\Tracer\bin\Debug\netcoreapp2.0\Tracer.dll
+D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.csprojResolveAssemblyReference.cache
+D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.csproj.CoreCompileInputs.cache
+D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.AssemblyInfoInputs.cache
+D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.AssemblyInfo.cs
