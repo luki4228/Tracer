@@ -8,15 +8,45 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Xml.Serialization;
 using Tracer;
 
 namespace Example
 {
     class Program
     {
+        private static ITracer tracer;
+
+        internal static void AnotherSimpleMethod()
+        {
+            tracer.StartTrace();
+            Thread.Sleep(100);
+            tracer.StopTrace();
+        }
+
+        internal static void SimpleMethod()
+        {
+            tracer.StartTrace();
+            AnotherSimpleMethod();
+            Thread.Sleep(100);
+            tracer.StopTrace();
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            tracer = new Tracer.Tracer();
+            SimpleMethod();
+            TraceResult traceResult = tracer.GetTraceResult();
+            XMLSerializer xml = new XMLSerializer();
+            ConsoleWriter cw = new ConsoleWriter();
+            cw.Write(traceResult, xml);
+            FileWriter fw = new FileWriter("./xml.xml");
+            fw.Write(traceResult, xml);
+            JSONSerializer json = new JSONSerializer();
+            cw.Write(traceResult, json);
+            fw.FileName = "./json.json";
+            fw.Write(traceResult, json);
+            Console.ReadKey();
         }
     }
 }
