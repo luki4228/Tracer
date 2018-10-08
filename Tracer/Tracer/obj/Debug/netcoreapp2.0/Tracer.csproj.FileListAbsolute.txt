@@ -6,3 +6,6 @@ D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.csprojResolveAssemblyRefe
 D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.csproj.CoreCompileInputs.cache
 D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.AssemblyInfoInputs.cache
 D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.AssemblyInfo.cs
+D:\СПП\Tracer\Tracer\bin\Debug\netcoreapp2.0\Tracer.pdb
+D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.dll
+D:\СПП\Tracer\Tracer\obj\Debug\netcoreapp2.0\Tracer.pdb
