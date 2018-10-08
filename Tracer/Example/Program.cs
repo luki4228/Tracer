@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using System.Xml.Serialization;
 using Tracer;
 
 namespace Example
 {
     class Program
     {
+
         private static ITracer tracer;
 
-        internal static void AnotherSimpleMethod()
+        internal static void AnotherSImpleMethod()
         {
             tracer.StartTrace();
             Thread.Sleep(100);
@@ -27,7 +27,7 @@ namespace Example
         internal static void SimpleMethod()
         {
             tracer.StartTrace();
-            AnotherSimpleMethod();
+            AnotherSImpleMethod();
             Thread.Sleep(100);
             tracer.StopTrace();
         }
