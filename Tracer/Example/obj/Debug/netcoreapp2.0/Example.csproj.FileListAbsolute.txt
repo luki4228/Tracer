@@ -1,0 +1,8 @@
+D:\СПП\Tracer\Example\bin\Debug\netcoreapp2.0\Example.deps.json
+D:\СПП\Tracer\Example\bin\Debug\netcoreapp2.0\Example.runtimeconfig.json
+D:\СПП\Tracer\Example\bin\Debug\netcoreapp2.0\Example.runtimeconfig.dev.json
+D:\СПП\Tracer\Example\bin\Debug\netcoreapp2.0\Example.dll
+D:\СПП\Tracer\Example\obj\Debug\netcoreapp2.0\Example.csproj.CoreCompileInputs.cache
+D:\СПП\Tracer\Example\obj\Debug\netcoreapp2.0\Example.AssemblyInfoInputs.cache
+D:\СПП\Tracer\Example\obj\Debug\netcoreapp2.0\Example.AssemblyInfo.cs
+D:\СПП\Tracer\Example\obj\Debug\netcoreapp2.0\Example.csprojResolveAssemblyReference.cache
