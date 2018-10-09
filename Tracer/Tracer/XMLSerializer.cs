@@ -10,7 +10,7 @@ using System.Xml;
 
 namespace Tracer
 {
-    public class XMLSerializer: ISerializer
+    public class XMLSerializer : ISerializer
     {
         protected readonly XmlWriterSettings xmlWriterSettings;
         protected readonly DataContractSerializer xmlSerializer;
