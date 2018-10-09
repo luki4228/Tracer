@@ -28,28 +28,6 @@ namespace TracerUnitTest1
             tracer.StopTrace();
         }
 
-        private void MultiThreadedMethod()
-        {
-            var threads = new List<Thread>();
-            Thread newThread;
-            for (int i = 0; i < threadsCount; i++)
-            {
-                newThread = new Thread(SimpleTestMethod);
-                threads.Add(newThread);
-            }
-            foreach (Thread thread in threads)
-            {
-                thread.Start();
-            }
-            tracer.StartTrace();
-            Thread.Sleep(waitTime);
-            tracer.StopTrace();
-            foreach (Thread thread in threads)
-            {
-                thread.Join();
-            }
-        }
-
         [TestMethod]
         public void SingleThreadTest()
         {
